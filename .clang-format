@@ -1,0 +1,42 @@
+---
+BasedOnStyle:  GNU
+# AlignAfterOpenBracket: BAS_BlockIndent
+# AlignConsecutiveMacros: AcrossComments
+# AlignConsecutiveAssignments: AcrossComments
+# AlignConsecutiveBitFields: AcrossComments
+# AlignConsecutiveDeclarations: AcrossComments
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+# AllowAllArgumentsOnNextLine: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: All
+# BinPackArguments: false
+# BinPackParameters: false
+BraceWrapping:
+  AfterCaseLabel:  true
+  AfterClass:      true
+  AfterControlStatement: Always
+  AfterEnum:       false
+  AfterFunction:   true
+  AfterNamespace:  true
+  AfterObjCDeclaration: true
+  AfterStruct:     false
+  AfterUnion:      true
+  AfterExternBlock: true
+  BeforeCatch:     true
+  BeforeElse:      true
+  BeforeLambdaBody: false
+  BeforeWhile:     true
+  IndentBraces:    false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakBeforeBraces: Custom
+ColumnLimit: 0
+IndentExternBlock: AfterExternBlock
+SortIncludes: Never
+SpacesBeforeTrailingComments: 2
+SpaceBeforeParens: ControlStatements
+UseTab: Never
+
